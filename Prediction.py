@@ -12,7 +12,7 @@ import seaborn as sns
 from sklearn.metrics import roc_curve
 
 #Read csv data file
-df = pd.read_csv(r'C:/Users/sandhya.mukkamala/Downloads/FlightData.csv')
+df = pd.read_csv('FlightData.csv')
 #ceck if data is loaded
 df.head()
 df.shape
